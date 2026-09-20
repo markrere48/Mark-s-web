@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mark's Webpage portifolo check</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legislative Council Attendance Register</title>
+  <style>
+    :root{--navy:#12263a;--blue:#1769aa;--muted:#64748b;--line:#dbe3ec;--bg:#f5f7fb;--green:#dcfce7;--yellow:#fef3c7;--orange:#fed7aa;--red:#fecaca;--black:#111827}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:#172033;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    header{background:linear-gradient(120deg,#102a43,#1769aa);color:white;padding:28px max(22px,calc((100% - 1180px)/2)) 34px} header h1{margin:0 0 5px;font-size:clamp(1.5rem,3vw,2.3rem)} header p{margin:0;color:#d8eaff}.operator{float:right;margin-top:-40px;background:#ffffff1f;border:1px solid #ffffff45;padding:8px 13px;border-radius:999px;font-size:.9rem}
+    main{max-width:1180px;margin:22px auto;padding:0 18px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:18px;box-shadow:0 3px 12px #12263a0a}.controls{display:grid;grid-template-columns:1.1fr 1fr 1fr auto;gap:12px;align-items:end}label{display:block;font-weight:650;color:#344256;margin-bottom:5px}input,select,button{font:inherit;border-radius:8px;border:1px solid #cbd5e1;padding:10px 12px}input,select{width:100%;background:#fff}button{cursor:pointer;font-weight:650;border:0;background:var(--blue);color:#fff}button.secondary{background:#e8eef5;color:#19324d}button.danger{background:#b42318}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions button{white-space:nowrap}
+    .legend{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 15px}.pill{display:inline-flex;align-items:center;gap:6px;font-size:.82rem}.dot{width:12px;height:12px;border-radius:50%;display:inline-block;border:1px solid #0002}.status-green{background:var(--green)}.status-yellow{background:var(--yellow)}.status-orange{background:var(--orange)}.status-red{background:var(--red)}.status-black{background:var(--black);color:#fff}.dot.green{background:#22c55e}.dot.yellow{background:#eab308}.dot.orange{background:#f97316}.dot.red{background:#ef4444}.dot.black{background:#111827}
+    .table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:720px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:12px 10px;vertical-align:middle}th{background:#f8fafc;color:#475569;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}tbody tr:last-child td{border-bottom:0}.member-name{font-weight:700}.role{font-size:.84rem;color:var(--muted)}.attendance input{width:20px;height:20px;accent-color:var(--blue);cursor:pointer}.badge{display:inline-block;padding:5px 9px;border-radius:999px;font-size:.8rem;font-weight:750}.empty{text-align:center;color:var(--muted);padding:30px}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}.stat{border-radius:10px;padding:13px;background:#f8fafc}.stat strong{display:block;font-size:1.45rem}.stat small{color:var(--muted)}.notice{background:#eff6ff;border-left:4px solid var(--blue);padding:11px 13px;color:#234}.modal{display:none;position:fixed;inset:0;background:#0008;align-items:center;justify-content:center;padding:18px;z-index:3}.modal.open{display:flex}.modal-card{background:#fff;border-radius:14px;max-width:480px;width:100%;padding:22px}.modal-card h2{margin-top:0}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.modal-footer{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
+    @media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls .actions{grid-column:1/-1}.operator{float:none;display:inline-block;margin:15px 0 0}.summary{grid-template-columns:1fr 1fr}.form-row{grid-template-columns:1fr}}
+    @media print{body{background:#fff;font-size:11px}header{background:#fff;color:#111;padding:0 0 14px;border-bottom:2px solid #111}header p{color:#333}.operator{color:#111;background:none;border:0;padding:0}.no-print,.controls,.notice,.legend{display:none!important}main{margin:0;padding:0}.card{border:0;box-shadow:none;padding:0;margin:12px 0}table{min-width:0}th,td{padding:7px 5px}.badge{border:1px solid #555}.status-black{background:#111!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.status-red,.status-yellow,.status-orange,.status-green{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+  </style>
 </head>
- <a href="../../Documents/root_markpage/web1/portal.html">Home</a>
- <a href="#">About me</a>
- <a href="#">Contact me</a>
- <a href="#">My Services</a>
-<h1>Welcome to Mark's Webpage</h1>
-<h2>Checkout my Webpage</h2>
 <body>
-    <img src="Image/mark3.jpg" width="100px">
-    <ul>Mark's portifolio
-        <li>A student</li>
-        <li>The real Yoruba angel</li>
-        <li>A Nigerian.</li>
-    </ul>
-    <p>My name is Mark olaleye.
-        A computer Engineering Student in 200level and I'm in the web development class.
-    </p>
-    <p>
-        I've really enjoyed morphology's class and i can't wwait to stop the ffrontend and join the backend,I wil be really happy to join this class and i want to be
-        a web developer.
-    </p>
-    </body>
-    <img src="Image/cofee.jpg" width="100px" alt="Mark is loading the image">
-    <br>
-    <a href="#">Don't click me i am a virus.hahaha</a>
-    <br>
-    <a href="https://www.google.com/chrome/">Log out</a>
-    <table>
-        <th>
-            <td>state</td><td>geo-political zones</td><td>common languge</td>
-        </th>
-        <tr>
-            <td></td><td>Oyo</td><td>South-west</td><td>Yoruba</td>
-        
-        <tr>
-            <td></td><td>Osun</td><td>South-west</td><td>Yoruba</td>
-        </tr>
-        <tr>
-            <td></td><td>Imo</td><td>South-east</td><td>Igbo</td>
-        </tr>
-        <tr>
-           <td></td> <td>Kwara</td><td>North-Central</td><td>Yoruba/Hausa</td>
-        </tr>
-        </tr>
-    </tr>
-    </table>
+  <header><div class="operator">Operator: <strong>Chief Whip</strong></div><h1>Legislative Council Attendance Register</h1><p>Official attendance record and printable monitoring sheet</p></header>
+  <main>
+    <section class="card no-print">
+      <div class="controls">
+        <div><label for="meetingDate">Meeting date</label><input id="meetingDate" type="date"></div>
+        <div><label for="meetingTitle">Meeting / sitting</label><input id="meetingTitle" placeholder="e.g. Plenary sitting 01"></div>
+        <div><label for="search">Find member</label><input id="search" placeholder="Search name or constituency"></div>
+        <div class="actions"><button id="addBtn">+ Add member</button><button class="secondary" id="printBtn">Print sheet</button></div>
+      </div>
+      <p class="notice">Attendance colors are calculated automatically: <strong>green</strong> = none missed, <strong>orange</strong> = 1 missed, <strong>yellow</strong> = 2 missed, <strong>red</strong> = last 3 sittings missed, <strong>black</strong> = more than 3 missed.</p>
+    </section>
+    <section class="card">
+      <div class="summary"><div class="stat"><strong id="totalCount">0</strong><small>Total members</small></div><div class="stat"><strong id="presentCount">0</strong><small>Present today</small></div><div class="stat"><strong id="missedCount">0</strong><small>Missed today</small></div><div class="stat"><strong id="riskCount">0</strong><small>Attendance alerts</small></div></div>
+      <div class="legend"><span class="pill"><i class="dot green"></i> None missed</span><span class="pill"><i class="dot orange"></i> 1 missed</span><span class="pill"><i class="dot yellow"></i> 2 missed</span><span class="pill"><i class="dot red"></i> Last 3 missed</span><span class="pill"><i class="dot black"></i> More than 3 missed</span></div>
+      <div class="table-wrap"><table><thead><tr><th>Member</th><th>Constituency / role</th><th>Present today</th><th>Missed sittings</th><th>Status</th><th class="no-print">Actions</th></tr></thead><tbody id="memberRows"></tbody></table></div>
+    </section>
+    <section class="card no-print"><h2>Register notes</h2><p>Use the checkbox to record the selected sitting. Records are saved in this browser. Add the council's members once, then print the register whenever needed.</p></section>
+  </main>
+  <div class="modal" id="modal"><form class="modal-card" id="memberForm"><h2>Add council member</h2><div class="form-row"><div><label for="name">Full name</label><input id="name" required></div><div><label for="constituency">Constituency / role</label><input id="constituency" required></div></div><div class="modal-footer"><button type="button" class="secondary" id="cancelBtn">Cancel</button><button type="submit">Save member</button></div></form></div>
+  <script>
+    const KEY='legislativeCouncilAttendanceV1';
+    let state=JSON.parse(localStorage.getItem(KEY)||'null')||{members:[],meetings:{}};
+    const $=id=>document.getElementById(id), today=new Date().toISOString().slice(0,10);
+    $('meetingDate').value=today;
+    function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+    function meetingKey(){return $('meetingDate').value||today}
+    function missedCount(member){return (member.attendance||[]).filter(x=>!x.present).length}
+    function status(member){const n=missedCount(member); if(n>3)return ['status-black','More than 3 missed']; if(n===3)return ['status-red','Last 3 sittings missed']; if(n===2)return ['status-yellow','2 missed']; if(n===1)return ['status-orange','1 missed']; return ['status-green','None missed']}
+    function render(){const term=$('search').value.toLowerCase();const key=meetingKey();const rows=$('memberRows');let present=0,missed=0,alerts=0;rows.innerHTML='';const members=state.members.filter(m=>(m.name+' '+m.constituency).toLowerCase().includes(term));$('totalCount').textContent=state.members.length;
+      state.members.forEach(m=>{const rec=(m.attendance||[]).find(x=>x.date===key);if(rec?.present)present++;if(rec&&!rec.present)missed++;if(missedCount(m)>0)alerts++});$('presentCount').textContent=present;$('missedCount').textContent=missed;$('riskCount').textContent=alerts;
+      if(!members.length){rows.innerHTML='<tr><td colspan="6" class="empty">No members found. Add the first legislative council member to begin.</td></tr>';return}
+      members.forEach(m=>{const rec=(m.attendance||[]).find(x=>x.date===key);const [cls,label]=status(m);const tr=document.createElement('tr');tr.innerHTML=`<td><div class="member-name"></div></td><td><span class="role"></span></td><td class="attendance"><input type="checkbox" title="Mark present" ${rec?.present?'checked':''}></td><td>${missedCount(m)}</td><td><span class="badge ${cls}">${label}</span></td><td class="no-print"><button class="danger" data-remove="${m.id}">Remove</button></td>`;tr.querySelector('.member-name').textContent=m.name;tr.querySelector('.role').textContent=m.constituency;tr.querySelector('input').onchange=e=>{m.attendance=(m.attendance||[]).filter(x=>x.date!==key);m.attendance.push({date:key,present:e.target.checked});save();render()};tr.querySelector('[data-remove]').onclick=()=>{if(confirm('Remove this member and their attendance history?')){state.members=state.members.filter(x=>x.id!==m.id);save();render()}};rows.appendChild(tr)})}
+    $('addBtn').onclick=()=>$('modal').classList.add('open');$('cancelBtn').onclick=()=>$('modal').classList.remove('open');$('search').oninput=render;$('meetingDate').onchange=render;$('printBtn').onclick=()=>window.print();
+    $('memberForm').onsubmit=e=>{e.preventDefault();state.members.push({id:Date.now().toString(),name:$('name').value.trim(),constituency:$('constituency').value.trim(),attendance:[]});save();e.target.reset();$('modal').classList.remove('open');render()};
+    render();
+  </script>
+</body>
 </html>
